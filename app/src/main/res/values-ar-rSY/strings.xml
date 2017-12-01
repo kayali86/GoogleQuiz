@@ -28,7 +28,7 @@
     <string name="q4Choice2">Microsystems</string>
     <string name="q4Choice3">Imponet</string>
     <string name="q4Choice4">Alternate</string>
-    <string name="toast">لديك <xliff:g id="right" example="0">%d</xliff:g> اجابات صحيحة و <xliff:g id="wrong" example="0">%d</xliff:g>  اجابات خاطئة. </string>
+    <string name="toast">مرحبا  <xliff:g id="userName" example="Peter">%s</xliff:g>! \nلديك <xliff:g id="right" example="0">%d</xliff:g> اجابات صحيحة و <xliff:g id="wrong" example="0">%d</xliff:g>  اجابات خاطئة. </string>
     <string name="textField">من فضلك قم بكتابة اسمك</string>
     <string name="question6">ما هي الالوان التي يحتوي عليها شعار شركة جوجل؟</string>
     <string name="q6Choice1">أزرق</string>

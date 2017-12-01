@@ -28,7 +28,8 @@
     <string name="q5Choice2">76 Milliarden Dollar</string>
     <string name="q5Choice3">25 Milliarden Dollar</string>
     <string name="q5Choice4">89 Milliarden Dollar</string>
-    <string name="toast">Sie haben <xliff:g id="right" example="0">%d</xliff:g> richtige Antworten und <xliff:g id="wrong" example="0">%d</xliff:g> falsche Antworten.</string>
+
+    <string name="toast">Hallo <xliff:g id="userName" example="Peter">%s</xliff:g>! \nSie haben <xliff:g id="right" example="0">%d</xliff:g> richtige Antworten und <xliff:g id="wrong" example="0">%d</xliff:g> falsche Antworten.</string>
     <string name="textField">Geben Sie bitte Ihren Namen ein!</string>
     <string name="question6">Welche Farben hat GOOGLE\'s Logo?</string>
     <string name="q6Choice1">Blau</string>
