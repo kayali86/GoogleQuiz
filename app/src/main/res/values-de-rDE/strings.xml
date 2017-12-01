@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Google Quiz</string>
+    <string name="resultBtn">Resultat</string>
+    <string name="resetBtn">Zurücksetzen</string>
+    <string name="question1">Wie viele Mitarbeiter hat GOOGLE?</string>
+    <string name="question2">In welchem Jahr wurde GOOGLE gegründet?</string>
+    <string name="question3">Wo ist das Hauptquartier von GOOGLE?</string>
+    <string name="question4">Wie war der originale Name von GOOGLE?</string>
+    <string name="question5">Wie hoch war die Erträge von GOOGLE im Jahr 2016?</string>
+    <string name="q1Choice1">20187 Mitarbeiter.</string>
+    <string name="q1Choice2">55987 Mitarbeiter.</string>
+    <string name="q1Choice3">73992 Mitarbeiter.</string>
+    <string name="q1Choice4">9387 Mitarbeiter.</string>
+    <string name="q2Choice1">1985</string>
+    <string name="q2Choice2">1998</string>
+    <string name="q2Choice3">1990</string>
+    <string name="q2Choice4">2001</string>
+    <string name="q3Choice1">Manhattan</string>
+    <string name="q3Choice2">San Francisco</string>
+    <string name="q3Choice3">California</string>
+    <string name="q3Choice4">Washington</string>
+    <string name="q4Choice1">Backrub</string>
+    <string name="q4Choice2">Microsystems</string>
+    <string name="q4Choice3">Imponet</string>
+    <string name="q4Choice4">Alternate</string>
+    <string name="q5Choice1">43 Milliarden Dollar</string>
+    <string name="q5Choice2">76 Milliarden Dollar</string>
+    <string name="q5Choice3">25 Milliarden Dollar</string>
+    <string name="q5Choice4">89 Milliarden Dollar</string>
+    <string name="toast">Sie haben <xliff:g id="right" example="0">%d</xliff:g> richtige Antworten und <xliff:g id="wrong" example="0">%d</xliff:g> falsche Antworten.</string>
+    <string name="textField">Geben Sie bitte Ihren Namen ein!</string>
+    <string name="question6">Welche Farben hat GOOGLE\'s Logo?</string>
+    <string name="q6Choice1">Blau</string>
+    <string name="q6Choice2">Lila</string>
+    <string name="q6Choice3">Grün</string>
+    <string name="q6Choice4">Gelb</string>
+    <string name="q6Choice5">Rot</string>
+    <string name="q6Choice6">Braun</string>
+
+</resources>

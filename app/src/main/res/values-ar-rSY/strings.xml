@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Google Quiz</string>
+    <string name="resultBtn">النتيجة</string>
+    <string name="resetBtn">اعادة ضبط</string>
+    <string name="question1">كم عدد الموظفين في شركة جوجل؟</string>
+    <string name="question2">في اي عام تم تاسيس شركة جوجل؟</string>
+    <string name="question3">اين يوجد المقر الرئيسي لشركة جوجل؟</string>
+    <string name="question4">ما هو الاسم الاساسي القديم لشركة جوجل؟</string>
+    <string name="question5">كم كانت عائدات شركة جوجل عام 2016؟</string>
+    <string name="q1Choice1">20187 موظف.</string>
+    <string name="q1Choice2">55987 موظف.</string>
+    <string name="q1Choice3">73992 موظف.</string>
+    <string name="q1Choice4">9387 موظف.</string>
+    <string name="q2Choice1">1985</string>
+    <string name="q2Choice2">1998</string>
+    <string name="q2Choice3">1990</string>
+    <string name="q2Choice4">2001</string>
+    <string name="q3Choice1">مانهاتن</string>
+    <string name="q3Choice2">"سان فرانسيسكو "</string>
+    <string name="q3Choice3">كاليفورنيا</string>
+    <string name="q3Choice4">واشنطن</string>
+    <string name="q5Choice1">"43 مليار دولار "</string>
+    <string name="q5Choice2">"76 مليار دولار "</string>
+    <string name="q5Choice3">"25 مليار دولار "</string>
+    <string name="q5Choice4">"89 مليار دولار "</string>
+    <string name="q4Choice1">Backrub</string>
+    <string name="q4Choice2">Microsystems</string>
+    <string name="q4Choice3">Imponet</string>
+    <string name="q4Choice4">Alternate</string>
+    <string name="toast">لديك <xliff:g id="right" example="0">%d</xliff:g> اجابات صحيحة و <xliff:g id="wrong" example="0">%d</xliff:g>  اجابات خاطئة. </string>
+    <string name="textField">من فضلك قم بكتابة اسمك</string>
+    <string name="question6">ما هي الالوان التي يحتوي عليها شعار شركة جوجل؟</string>
+    <string name="q6Choice1">أزرق</string>
+    <string name="q6Choice2">بنفسجي</string>
+    <string name="q6Choice3">أخضر</string>
+    <string name="q6Choice4">أصفر</string>
+    <string name="q6Choice5">أحمر</string>
+    <string name="q6Choice6">بني</string>
+
+</resources>
