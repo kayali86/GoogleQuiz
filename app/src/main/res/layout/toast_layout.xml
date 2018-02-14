@@ -7,8 +7,7 @@
     android:background="@drawable/toast"
     android:gravity="center" >
 
-
-
+    <!--This Layout is to show the Result -->
     <TextView android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,5 +19,4 @@
         android:shadowRadius="2"
         android:shadowDx="1"
         android:shadowDy="1"/>
-
 </LinearLayout>

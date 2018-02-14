@@ -2,34 +2,32 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="com.example.android.googlequiz.MainActivity">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@drawable/background"
         tools:context="com.example.android.googlequiz.MainActivity">
 
-
         <!-- Header -->
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:scaleType="centerCrop"
+            android:contentDescription="@string/imagesDes"
             android:src="@drawable/header_background"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:scaleType="fitCenter"
+            android:contentDescription="@string/imagesDes"
             android:src="@drawable/google" />
 
-
         <!-- Body -->
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -46,9 +44,7 @@
                 android:id="@+id/name_edit_text"
                 android:inputType="textCapWords"/>
 
-
             <!-- Question 1 -->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -92,21 +88,16 @@
                     android:layout_height="match_parent"
                     android:id="@+id/radio_4Question1"
                     android:text="@string/q1Choice4"/>
-
             </RadioGroup>
 
-
             <!-- Line -->
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/darker_gray"/>
 
-
             <!-- Question 2 -->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -150,21 +141,16 @@
                     android:layout_height="match_parent"
                     android:id="@+id/radio_4Question2"
                     android:text="@string/q2Choice4"/>
-
             </RadioGroup>
 
-
             <!-- Line -->
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/darker_gray"/>
 
-
             <!-- Question 3 -->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -208,21 +194,16 @@
                     android:layout_height="match_parent"
                     android:id="@+id/radio_4Question3"
                     android:text="@string/q3Choice4"/>
-
             </RadioGroup>
 
-
             <!-- Line -->
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/darker_gray"/>
 
-
             <!-- Question 4 -->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -266,21 +247,16 @@
                     android:layout_height="match_parent"
                     android:id="@+id/radio_4Question4"
                     android:text="@string/q4Choice4"/>
-
             </RadioGroup>
 
-
             <!-- Line -->
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/darker_gray"/>
 
-
             <!-- Question 5 -->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -324,21 +300,16 @@
                     android:layout_height="match_parent"
                     android:id="@+id/radio_4Question5"
                     android:text="@string/q5Choice4"/>
-
             </RadioGroup>
 
-
             <!-- Line -->
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/darker_gray"/>
 
-
             <!-- Question 6 -->
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -351,7 +322,6 @@
                 android:textStyle="bold"
                 android:shadowColor="@android:color/black"
                 android:text="@string/question3"/>
-
 
             <CheckBox
                 android:layout_width="match_parent"
@@ -389,19 +359,14 @@
                 android:id="@+id/question6Choice6Check"
                 android:text="@string/q6Choice6"/>
 
-
-
             <!-- Line -->
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginBottom="16dp"
                 android:background="@android:color/darker_gray"/>
 
-
             <!-- Result / Reset Buttons -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -413,7 +378,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="calculateResult"
-                    android:layout_marginRight="100dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="40dp"
                     android:textColor="@android:color/white"
                     android:text="@string/resultBtn"/>
 
@@ -425,9 +391,6 @@
                     android:text="@string/resetBtn"/>
 
             </LinearLayout>
-
-
         </LinearLayout>
-
     </RelativeLayout>
 </ScrollView>

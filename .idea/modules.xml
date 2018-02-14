@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GoogleQuiz.iml" filepath="$PROJECT_DIR$/GoogleQuiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GoogleQuiz.iml" filepath="$PROJECT_DIR$/.idea/GoogleQuiz.iml" />
+      <module fileurl="file://C:\Users\EAGLE86\AndroidStudioProjects\fork\GoogleQuiz\GoogleQuiz.iml" filepath="C:\Users\EAGLE86\AndroidStudioProjects\fork\GoogleQuiz\GoogleQuiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

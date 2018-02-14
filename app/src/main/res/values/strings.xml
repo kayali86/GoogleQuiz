@@ -1,12 +1,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Google Quiz</string>
 
+    <!-- ContentDescription for ImageViews -->
+    <string name="imagesDes">Image</string>
+
     <!-- Hint for text field -->
     <string name="textField">Please enter your name</string>
 
-
     <!-- Questions -->
-
     <string name="question1">How many employees has google?</string>
     <string name="question2">In which year was google founded?</string>
     <string name="question3">Where is the headquarters of google?</string>
@@ -14,49 +15,37 @@
     <string name="question5">How much revenue did google make in 2016?</string>
     <string name="question6">Which colors have GOOGLE Logo?</string>
 
-
     <!-- Question 1 Choices -->
-
     <string name="q1Choice1">20187 employees.</string>
     <string name="q1Choice2">55987 employees.</string>
     <string name="q1Choice3">73992 employees.</string>
     <string name="q1Choice4">9387 employees.</string>
 
-
     <!-- Question 2 Choices -->
-
     <string name="q2Choice1">1985</string>
     <string name="q2Choice2">1998</string>
     <string name="q2Choice3">1990</string>
     <string name="q2Choice4">2001</string>
 
-
     <!-- Question 3 Choices -->
-
     <string name="q3Choice1">Manhattan</string>
     <string name="q3Choice2">San Francisco</string>
     <string name="q3Choice3">California</string>
     <string name="q3Choice4">Washington</string>
 
-
     <!-- Question 4 Choices -->
-
     <string name="q4Choice1">Backrub</string>
     <string name="q4Choice2">Microsystems</string>
     <string name="q4Choice3">Imponet</string>
     <string name="q4Choice4">Alternate</string>
 
-
     <!-- Question 5 Choices -->
-
     <string name="q5Choice1">43 Billion Dollar</string>
     <string name="q5Choice2">76 Billion Dollar</string>
     <string name="q5Choice3">25 Billion Dollar</string>
     <string name="q5Choice4">89 Billion Dollar</string>
 
-
     <!-- Question 6 Choices -->
-
     <string name="q6Choice1">Blue</string>
     <string name="q6Choice2">Purple</string>
     <string name="q6Choice3">Green</string>
@@ -64,17 +53,10 @@
     <string name="q6Choice5">Red</string>
     <string name="q6Choice6">Brown</string>
 
-
     <!-- Buttons Caption -->
-
     <string name="resultBtn">Result</string>
     <string name="resetBtn">Reset</string>
 
-
     <!-- Toast Result Message -->
-
     <string name="toast">Hello <xliff:g id="userName" example="Peter">%s</xliff:g>! \nYou have <xliff:g id="right" example="0">%d</xliff:g> right answers and <xliff:g id="wrong" example="0">%d</xliff:g> wrong answers.</string>
-
-
-
 </resources>
