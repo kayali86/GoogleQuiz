@@ -46,325 +46,188 @@
 
             <!-- Question 1 -->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/holo_purple"
-                android:textSize="18sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="2"
-                android:textStyle="bold"
-                android:shadowColor="@android:color/black"
-                android:text="@string/question1"/>
+                android:text="@string/question1"
+                style="@style/question" />
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/group_1"
-                android:layout_marginBottom="8dp"
-                android:orientation="vertical">
+                style="@style/radioGroups">
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
                     android:id="@+id/radio_1Question1"
-                    android:text="@string/q1Choice1"/>
+                    android:text="@string/q1Choice1"
+                    style="@style/radioButtons" />
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_2Question1"
                     android:text="@string/q1Choice2"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_3Question1"
                     android:text="@string/q1Choice3"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_4Question1"
                     android:text="@string/q1Choice4"/>
             </RadioGroup>
 
             <!-- Line -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="16dp"
-                android:background="@android:color/darker_gray"/>
+            <View style="@style/line" />
 
             <!-- Question 2 -->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/holo_purple"
-                android:textSize="18sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="2"
-                android:textStyle="bold"
-                android:shadowColor="@android:color/black"
+                style="@style/question"
                 android:text="@string/question2"/>
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/group_2"
-                android:layout_marginBottom="8dp"
-                android:orientation="vertical">
+                style="@style/radioGroups">
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_1Question2"
                     android:text="@string/q2Choice1"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_2Question2"
                     android:text="@string/q2Choice2"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_3Question2"
                     android:text="@string/q2Choice3"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_4Question2"
                     android:text="@string/q2Choice4"/>
             </RadioGroup>
 
             <!-- Line -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="16dp"
-                android:background="@android:color/darker_gray"/>
+            <View style="@style/line" />
 
             <!-- Question 3 -->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/holo_purple"
-                android:textSize="18sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="2"
-                android:textStyle="bold"
-                android:shadowColor="@android:color/black"
+                style="@style/question"
                 android:text="@string/question3"/>
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/group_3"
-                android:layout_marginBottom="8dp"
-                android:orientation="vertical">
+                style="@style/radioGroups">
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_1Question3"
                     android:text="@string/q3Choice1"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_2Question3"
                     android:text="@string/q3Choice2"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_3Question3"
                     android:text="@string/q3Choice3"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_4Question3"
                     android:text="@string/q3Choice4"/>
             </RadioGroup>
 
             <!-- Line -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="16dp"
-                android:background="@android:color/darker_gray"/>
+            <View style="@style/line" />
 
             <!-- Question 4 -->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/holo_purple"
-                android:textSize="18sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="2"
-                android:textStyle="bold"
-                android:shadowColor="@android:color/black"
+                style="@style/question"
                 android:text="@string/question4"/>
 
-            <RadioGroup
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/group_4"
-                android:layout_marginBottom="8dp"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/radio_1Question4"
-                    android:text="@string/q4Choice1"/>
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/radio_2Question4"
-                    android:text="@string/q4Choice2"/>
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/radio_3Question4"
-                    android:text="@string/q4Choice3"/>
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/radio_4Question4"
-                    android:text="@string/q4Choice4"/>
-            </RadioGroup>
+                android:inputType="textCapWords"
+                android:id="@+id/question4EditText"
+                android:hint="@string/q4Hint"/>
 
             <!-- Line -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="16dp"
-                android:background="@android:color/darker_gray"/>
+            <View style="@style/line" />
 
             <!-- Question 5 -->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/holo_purple"
-                android:textSize="18sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="2"
-                android:textStyle="bold"
-                android:shadowColor="@android:color/black"
+                style="@style/question"
                 android:text="@string/question5"/>
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/group_5"
-                android:layout_marginBottom="8dp"
-                android:orientation="vertical">
+                style="@style/radioGroups">
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_1Question5"
                     android:text="@string/q5Choice1"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_2Question5"
                     android:text="@string/q5Choice2"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_3Question5"
                     android:text="@string/q5Choice3"/>
 
                 <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/radioButtons"
                     android:id="@+id/radio_4Question5"
                     android:text="@string/q5Choice4"/>
             </RadioGroup>
 
             <!-- Line -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="16dp"
-                android:background="@android:color/darker_gray"/>
+            <View style="@style/line" />
 
             <!-- Question 6 -->
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/holo_purple"
-                android:textSize="18sp"
-                android:shadowDy="1"
-                android:shadowDx="1"
-                android:shadowRadius="2"
-                android:textStyle="bold"
-                android:shadowColor="@android:color/black"
+                style="@style/question"
                 android:text="@string/question3"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/question6Choice1Check"
-                android:text="@string/q6Choice1"/>
+                android:text="@string/q6Choice1"
+                style="@style/checkBoxes" />
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/checkBoxes"
                 android:id="@+id/question6Choice2Check"
                 android:text="@string/q6Choice2"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/checkBoxes"
                 android:id="@+id/question6Choice3Check"
                 android:text="@string/q6Choice3"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/checkBoxes"
                 android:id="@+id/question6Choice4Check"
                 android:text="@string/q6Choice4"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/checkBoxes"
                 android:id="@+id/question6Choice5Check"
                 android:text="@string/q6Choice5"/>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/checkBoxes"
                 android:id="@+id/question6Choice6Check"
                 android:text="@string/q6Choice6"/>
 
             <!-- Line -->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginBottom="16dp"
-                android:background="@android:color/darker_gray"/>
+            <View style="@style/line" />
 
             <!-- Result / Reset Buttons -->
             <LinearLayout
@@ -373,22 +236,17 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="16dp">
 
-
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:onClick="calculateResult"
                     android:layout_marginEnd="40dp"
                     android:layout_marginStart="40dp"
-                    android:textColor="@android:color/white"
-                    android:text="@string/resultBtn"/>
+                    android:text="@string/resultBtn"
+                    style="@style/buttons" />
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:onClick="reset"
-                    android:textColor="@android:color/white"
-                    android:text="@string/resetBtn"/>
+                    android:text="@string/resetBtn"
+                    style="@style/buttons" />
 
             </LinearLayout>
         </LinearLayout>

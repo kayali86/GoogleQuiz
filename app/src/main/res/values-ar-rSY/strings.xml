@@ -24,10 +24,7 @@
     <string name="q5Choice2">"76 مليار دولار "</string>
     <string name="q5Choice3">"25 مليار دولار "</string>
     <string name="q5Choice4">"89 مليار دولار "</string>
-    <string name="q4Choice1">Backrub</string>
-    <string name="q4Choice2">Microsystems</string>
-    <string name="q4Choice3">Imponet</string>
-    <string name="q4Choice4">Alternate</string>
+    <string name="q4Hint">أدخل الاسم هنا</string>
     <string name="toast">مرحبا  <xliff:g id="userName" example="Peter">%s</xliff:g>! \nلديك <xliff:g id="right" example="0">%d</xliff:g> اجابات صحيحة و <xliff:g id="wrong" example="0">%d</xliff:g>  اجابات خاطئة. </string>
     <string name="textField">من فضلك قم بكتابة اسمك</string>
     <string name="question6">ما هي الالوان التي يحتوي عليها شعار شركة جوجل؟</string>

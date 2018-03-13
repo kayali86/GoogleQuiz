@@ -34,10 +34,7 @@
     <string name="q3Choice4">Washington</string>
 
     <!-- Question 4 Choices -->
-    <string name="q4Choice1">Backrub</string>
-    <string name="q4Choice2">Microsystems</string>
-    <string name="q4Choice3">Imponet</string>
-    <string name="q4Choice4">Alternate</string>
+    <string name="q4Hint">Enter the name here</string>
 
     <!-- Question 5 Choices -->
     <string name="q5Choice1">43 Billion Dollar</string>

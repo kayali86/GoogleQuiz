@@ -20,10 +20,7 @@
     <string name="q3Choice2">San Francisco</string>
     <string name="q3Choice3">California</string>
     <string name="q3Choice4">Washington</string>
-    <string name="q4Choice1">Backrub</string>
-    <string name="q4Choice2">Microsystems</string>
-    <string name="q4Choice3">Imponet</string>
-    <string name="q4Choice4">Alternate</string>
+    <string name="q4Hint">Geben Sie bitte den Namen hier ein!</string>
     <string name="q5Choice1">43 Milliarden Dollar</string>
     <string name="q5Choice2">76 Milliarden Dollar</string>
     <string name="q5Choice3">25 Milliarden Dollar</string>
